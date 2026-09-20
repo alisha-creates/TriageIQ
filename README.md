@@ -183,11 +183,15 @@ The application can be run using Docker Compose with:
                      │      MySQL      │
                      └─────────────────┘
 
+```
 
-🤖 AI Ticket Processing Flow
+---
+
+# 🤖 AI Ticket Processing Flow
 
 When a customer creates a ticket:
 
+```text
 Customer creates ticket
           │
           ▼
@@ -219,35 +223,44 @@ Customer creates ticket
             │
             ▼
        Response sent
+```
 
-📁 Project Structure
+---
 
+# 📁 Project Structure
+
+```text
 src/main/java/com/example/TriageIQ/
 ├── Config/        # Security, CORS, WebSocket, Async, AI client config
-├── Controller/     # REST + WebSocket message-mapped controllers
-├── Service/        # Business logic — interface + Impl per feature
-│   └── Ai/          # AI orchestration, prompt templates, response parsing
-├── Repository/      # Spring Data JPA repositories
-├── Entity/          # JPA entities + enums
-├── DTO/             # Request/response DTOs
-├── Security/         # JWT, OAuth2, current-user resolution, rate limiting
-├── Exception/         # Custom exceptions + global exception handler
-└── Validation/        # Ticket state machine, AI response validation
+├── Controller/    # REST + WebSocket message-mapped controllers
+├── Service/       # Business logic — interface + Impl per feature
+│   └── Ai/        # AI orchestration, prompt templates, response parsing
+├── Repository/    # Spring Data JPA repositories
+├── Entity/        # JPA entities + enums
+├── DTO/           # Request/response DTOs
+├── Security/      # JWT, OAuth2, current-user resolution, rate limiting
+├── Exception/     # Custom exceptions + global exception handler
+└── Validation/    # Ticket state machine, AI response validation
+```
 
-🔮 Future Enhancements
+---
+
+# 🔮 Future Enhancements
 
 Possible future improvements include:
 
-Advanced analytics dashboard
-More AI providers
-Improved AI classification accuracy
-Ticket analytics and reporting
-Notification system
-Additional OAuth providers
-Production cloud deployment
-Automated testing and CI/CD
+- Advanced analytics dashboard
+- More AI providers
+- Improved AI classification accuracy
+- Ticket analytics and reporting
+- Notification system
+- Additional OAuth providers
+- Production cloud deployment
+- Automated testing and CI/CD
 
+---
 
-👩‍💻 Author
+# 👩‍💻 Author
 
-Alisha Shaikh
+**Alisha Shaikh**
+
